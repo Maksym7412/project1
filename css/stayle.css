@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.promo {
+    min-height: 100vh;
+    background: url('../img/beachshowcase.jpg') center center/cover no-repeat;
+}
+.promo_header {
+    width: 1000px;
+    padding-top: 40vh;
+}
+.title {
+    text-align: center;
+    color: #926239;
+    font-size: 50px;
+    font-weight: 700;
+}
+.subtitle {
+    text-align: center;
+    color: #926239;
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.promo_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 20px;
+    color: #926239;
+    padding: 10px;
+    border-radius: 15px;
+    background: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+.promo_btn:hover {
+    background-color: #926239;
+    color: #fff;
+}
+.main_bg-color {
+    background-color: #926239;
+    color: #fff;
+    font-weight: 300;
+}
+.second_bg-color {
+    color: #926239;
+    background-color: #fff;
+    font-weight: 300;
+}
+.about {
+    padding: 40px 60px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+}
+.items {
+    display: inline-block;
+}
+.item {
+    display: inline-block;
+    width: 33%;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 28px;
+}
