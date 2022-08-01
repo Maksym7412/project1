@@ -68,3 +68,43 @@ a {
     font-size: 20px;
     line-height: 28px;
 }
+@media screen and (max-width: 500px) {
+    :root {
+        font-size: 20px;
+    }
+    .promo {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .promo_header {
+        padding: 0 20px;
+        width: 100vw;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .subtitle {
+        font-size: 0.8rem;
+        margin-top: 15px;
+    }
+    .promo_btn {
+        font-size: 0.8rem;
+        padding: 10px;
+        margin-top: 30px;
+    }
+    .about {
+        padding: 20px;
+        font-size: 1rem;
+        line-height: 28px;
+    }
+    .items {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .item {
+        width: 100vw;
+        padding: 20px;
+    }
+}
